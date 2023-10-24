@@ -1,0 +1,12 @@
+{
+    "name": "SF Tools",
+    "globals": {
+        "file": {
+            "format": {
+                "json": "JSON",
+                "csv": "CSV",
+                "xml": "XML"
+            }
+        }
+    }
+}
