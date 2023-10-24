@@ -1,20 +1,44 @@
 {
     "name": "SF Tools",
-    "pages.query.buttons.clear.description": "Clear the results table",
-    "navigation.tabs.home": "Home",
-    "navigation.tabs.permissions": "Permissions",
-    "navigation.tabs.query": "Query",
-    "navigation.tabs.logs": "Logs",
-    "navigation.tabs.metadata_explorer": "Metadata Explorer",
-    "navigation.tabs.settings": "Settings",
-    "pages.query.buttons.execute.label": "Execute Query",
-    "pages.query.buttons.execute.description": "Executes the query from the editor and displays the results in a table",
-    "pages.query.buttons.clear.label": "Clear",
-    "pages.query.buttons.stop.label": "Stop",
-    "pages.query.buttons.stop.description": "Stop the current query execution",
-    "pages.query.buttons.export.label": "Export as {{format}}",
-    "pages.query.buttons.export.description": "Download the exported data as the selected format",
-    "globals.file.format.json": "JSON",
-    "globals.file.format.csv": "CSV",
-    "globals.file.format.xml": "XML"
+    "pages": {
+        "query": {
+            "buttons":{
+                "clear": {
+                    "label": "Clear",
+                    "description": "Clear the results table"
+                },
+                "execute": {
+                    "label": "Execute Query",
+                    "description": "Executes the query from the editor and displays the results in a table"
+                },
+                "stop": {
+                    "label": "Stop",
+                    "description": "Stop the current query execution"
+                },
+                "export": {
+                    "label": "Export as {{format}}",
+                    "description": "Download the exported data as the selected format"
+                }
+            }
+        }
+    },
+    "navigation": {
+        "tabs": {
+            "home": "Home",
+            "permissions": "Permissions",
+            "query": "Query",
+            "logs": "Logs",
+            "metadata_explorer": "Metadata Explorer",
+            "settings": "Settings"
+        }
+    },
+    "globals": {
+        "file": {
+            "format": {
+                "json": "JSON",
+                "csv": "CSV",
+                "xml": "XML"
+            }
+        }
+    }
 }
