@@ -1,3 +1,6 @@
 {
-    "name": "SF Tools"
+    "name": "SF Tools",
+    "globals.file.format.json": "JSON",
+    "globals.file.format.csv": "CSV",
+    "globals.file.format.xml": "XML"
 }
