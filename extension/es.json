@@ -8,5 +8,14 @@
                 "xml": "XML"
             }
         }
+    },
+    "pages": {
+        "query": {
+            "buttons": {
+                "export": {
+                    "label": "Exportar como {{format}}"
+                }
+            }
+        }
     }
 }
